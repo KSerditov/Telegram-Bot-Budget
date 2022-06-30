@@ -1,0 +1,20 @@
+# .service file for systemctl to run as a service
+[Unit]
+Description=Telegram Bot Budget
+[Service]
+User=root
+
+#change this to your workspace
+#config files and logs are here
+WorkingDirectory=/root/telegrambot
+
+#path to executable. 
+ExecStart=/opt/TelegramBot/telegrambudgetbot
+
+SuccessExitStatus=0
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

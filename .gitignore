@@ -10,6 +10,10 @@
 *.userosscache
 *.sln.docstates
 
+# User-specific personal jsons
+appsettings.json
+telegrambudget-key.json
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
