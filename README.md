@@ -17,6 +17,8 @@ Here is an example of interaction with bot:
 ## Setup Google Service account
 
 ## Setup Google Sheet
+Here is suggested template. First 4 columns on Sheet1 sheet should remain as is together with sheet name.
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRwOZynT-Mg3rBnxc-GdmosscU3-rNI2Z_ixYvcgihXqPp9v9k4Ja5mcT8SmrruogI-O61cG9_yXdJx/pub?output=xlsx
 
 ## Create Telegram bot
 Use @bot_father to create new Telegram bot, then specify access token in appsettings.json as "TelegramToken".
